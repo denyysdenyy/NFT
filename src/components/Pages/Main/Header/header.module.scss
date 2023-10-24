@@ -1,0 +1,13 @@
+.header{
+    &__wrapper{
+        min-height: 56px;
+        background-color: #30363D;
+        border-radius: 0 0 32px 32px;
+        display: flex;
+        align-items: center;
+    }
+    &__body{
+        display: flex;
+        align-items: center;
+    }
+}

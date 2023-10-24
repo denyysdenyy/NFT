@@ -1,0 +1,16 @@
+.logo{
+    margin-right: 25px;
+ 
+    svg{
+        path{
+            transition: all 250ms ease-in-out;
+        }
+        &:hover{
+            path:nth-of-type(49), path:nth-of-type(50), path:nth-of-type(51){
+                fill: #4136F1;
+            }
+        }
+    }
+  
+}
+

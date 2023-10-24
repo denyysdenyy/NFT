@@ -1,0 +1,30 @@
+@import '../../../../../assets/style/variables.scss';
+.search{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   max-width: 1140px;
+
+    &::placeholder{
+        font-family: $secondary-font;
+    }
+
+    &::-webkit-search-clear-button,&::-webkit-search-cancel-button{
+        -webkit-appearance: none;
+        appearance: none;
+        display: none;
+    }
+
+    &__input{
+        max-width: inherit;
+        width: inherit;
+        border-radius: 12px;
+        background: #1D2228;
+        padding: 9px 12px 9px 40px;
+        color: #fff;
+        margin-right: 12px;
+    
+    }
+    
+}
+
