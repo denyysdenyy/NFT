@@ -1,0 +1,15 @@
+.description{
+    max-width: 516px;
+    width: 100%;
+    line-height: 18px;
+    font-weight: 500;
+    span{
+        color: rgba(255, 255, 255, 0.50);
+        &::selection{
+            color: #fff;
+        }
+    }
+    &::selection{
+        color: #4136F1;
+    }
+}

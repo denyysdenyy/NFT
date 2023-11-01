@@ -1,0 +1,25 @@
+.soldFor{
+    font-size: 16px;
+    &::selection{
+        color: #da14b2;
+    }
+    span{
+        
+        position: relative;
+        font-size: 1rem;
+        color: rgba(255, 255, 255, 0.50);
+        font-weight: 600;
+        color: #fff;
+        &::before{
+            margin-left: 12px;
+            content: url('../../../../assets/svg/nft-sold.svg');
+            margin-right: 5px;
+            position: relative;
+            top: 5px;
+        }
+        &::selection{
+            color: #e5ff00;
+        }
+
+    }
+} 

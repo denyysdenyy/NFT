@@ -1,9 +1,9 @@
-import Header from './Header/Header.jsx'
+import Hero from './Hero/Hero.jsx'
 import styles from './main.module.scss'
 function Main() {
   return (
     <main className={styles.main}>
-        <Header />
+        <Hero />
     </main>
   )
 }
