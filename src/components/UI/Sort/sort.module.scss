@@ -1,0 +1,25 @@
+.sort{
+    &__button{
+        position: relative;
+        max-width: 164px;
+        width: 100%;
+        border-radius: 99px;
+        border: 1px solid rgba(255, 255, 255, 0.10);
+        background: #1D2228;
+        font-weight: 700;
+        color: #fff;
+        padding: 12px 24px;
+        &:after{
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            border: 0 solid transparent;
+            border-left-width: 6px;
+            border-right-width: 6px;
+            border-top: 6px solid #fff;
+            top: 18px;
+            margin-left: 6px;
+        }
+    }
+}

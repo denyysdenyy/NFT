@@ -1,0 +1,37 @@
+.card{
+    display: block;
+    position: relative;
+    max-width: 317px;
+    width: 100%;
+    border: 1px solid #333940;
+    contain: content;
+    &__profile{
+        padding: 6px 12px 6px 10px;
+        align-items: center;
+        display: flex;
+        background-color: #fff;
+        max-width: 300px;
+        border-radius: 12px;
+        box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.15);
+        position: absolute;
+        top: 12px;
+        left: 16px;
+        transition: 150ms ease-in-out;
+        &:hover {
+            transform: scale(1.07);
+        }
+    }
+
+    &__body{
+        padding: 24px 16px 16px 18px;
+    }
+    &__title{
+        font-size: 17px;
+    }
+
+    &__end{}
+
+    .card__profile:hover{
+       
+    }
+}
