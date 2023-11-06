@@ -10,6 +10,8 @@ import HeroSwiper from "./HeroSwiper/HeroSwiper.jsx"
 
 
 const Hero = () => {
+
+  
   return (
     <section className={styles.hero}>
         <div className="container">
@@ -17,7 +19,7 @@ const Hero = () => {
             <div className={styles.hero__body}>
               <div className={styles.hero__nftProduct}>
                 <div className={styles.hero__UserInfo}>
-                <UserInfo  image = {userImg} userName = 'User Name' userLogin = '@username'/>
+                <UserInfo  image = {userImg} userName = 'John Doe' userLogin = 'johndoe'/>
                 </div>
               <div className={styles.hero__ProductTitle}>
                 <ProductTitle title = 'WFH - art name' />
@@ -38,7 +40,7 @@ const Hero = () => {
                     <button className={styles.hero__options_btn}>
                       <div className="nft-menu"></div>
                     </button>
-                  </div>
+                  </div>  
                 </div>
               </div>
                 <div className={styles.hero__swiper}>

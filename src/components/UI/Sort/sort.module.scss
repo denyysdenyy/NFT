@@ -22,4 +22,15 @@
             margin-left: 6px;
         }
     }
+    &__dropdown{
+        width: 160px;
+        background: #1D2228;
+        border-radius: 99px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        text-align: center;
+    }
+}
+
+.custom-select__control{
+    width: 169px !important ;
 }

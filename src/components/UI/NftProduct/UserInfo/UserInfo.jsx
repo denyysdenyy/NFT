@@ -11,8 +11,8 @@ const UserInfo = props => {
     <div className={styles.userInfo}>
           <UserAvatar margin="0 12px 0 0" borderRadius="12px" userImage={avatar} />
         <div className={styles.userInfo__body}>
-        <UserName userName='User Name' fontSize = '1.4em' color="#fff" />
-        <UserLogin background="var(--Linear, linear-gradient(270deg, #8743FF 0%, #D8C2FF 100%))" userLogin="@username" />
+        <UserName userName='John Doe' fontSize = '1.4em' color="#fff" />
+        <UserLogin background="var(--Linear, linear-gradient(270deg, #8743FF 0%, #D8C2FF 100%))" userLogin="johndoe" />
         </div>
     </div>
   )
